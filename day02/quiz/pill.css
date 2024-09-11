@@ -1,0 +1,11 @@
+pill{
+    border-radius:  180px;
+    border: 1px solid #f4f4f4
+    background-color: white
+    padding: 8px 16px 8px 16px
+    font-weight: 700;}
+
+
+    .all{
+        background-color: skyblue;
+    }

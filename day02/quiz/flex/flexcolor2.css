@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.boxs {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  width: 300px;
+  height: 300px;
+}
+
+.one {
+  background-color: #1abc9c;
+}
+.two {
+  background-color: #2ecc71;
+}
+.three {
+  background-color: #3498db;
+}
+.four {
+  background-color: blue;
+}
+.five {
+  background-color: white;
+}
+.six {
+  background-color: red;
+}
+.seven {
+  background-color: pink;
+}
+.eight {
+  background-color: orange;
+}
+.nine {
+  background-color: black;
+}
