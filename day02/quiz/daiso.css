@@ -1,0 +1,13 @@
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 300;
+  height: 300;
+  gap: 10px;
+}
+.text1 {
+  color: rgb(107, 106, 106);
+}
+.text2 {
+  color: gray;
+}
