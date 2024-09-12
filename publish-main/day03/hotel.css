@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Danjo-bold-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.card {
+  width: 350px;
+  height: 650px;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 20px 20px 0px 20px;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.category {
+  font-family: "Danjo-bold-Regular";
+  color: white;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding: 3px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+}
+
+.event > span {
+  font-family: "Danjo-bold-Regular";
+  color: white;
+  font-size: 25px;
+}
+.sub {
+  font-family: "Danjo-bold-Regular";
+  color: white;
+}
+
+.one {
+  background-image: url("gym.avif");
+}
+.two {
+  background-image: url("photo-1526506118085-60ce8714f8c5.avif");
+}
+.three {
+  background-image: url("three.avif");
+}
+.four {
+  background-image: url("four.avif");
+}

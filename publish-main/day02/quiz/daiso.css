@@ -1,0 +1,90 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width : fit-content;
+  height: fit-content;
+  background-color: white;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  gap : 5px;
+  font-size: 25px;
+}
+.text{font-size: 25px;
+font-weight: 700;}
+.text1{font-size: 25px;
+font-weight: 700;
+color: gray;}
+.text2{font-size: 15px;
+color : gray;}
+
+.shoping{display: flex;
+flex-direction: row;
+width : fit-content;
+height: fit-content;}
+.contents{display: flex;
+flex-direction: column;
+width : fit-content;
+height: fit-content;
+justify-content: space-between;}
+.album{
+  display: flex;
+  flex-direction: column;
+width: 245px;
+height: 310px;}
+.bag{position: relative;
+width : 55px;
+height: 55px;
+left: 160px;
+top:240px;
+background-color: #e57574;
+border-radius: 100%;
+opacity: 0.8;}
+
+.one{
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240911/8YU3Fy6rogWQykbrLEKf1055442_00_008YU3Fy6rogWQykbrLEKf.jpg/dims/resize/320/quality/90");}
+.two{
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240911/EwxznUL7BdU0JsKtDyV21053921_00_00EwxznUL7BdU0JsKtDyV2.jpg/dims/resize/320/quality/90");
+
+}
+.three{
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240904/tF4murpPzedjBN03Z86a1047816_00_00tF4murpPzedjBN03Z86a.jpg/dims/resize/320/quality/90");
+
+}
+.four{
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240826/ntz4aGMDjqT2L0a5ngjo1059502_00_00ntz4aGMDjqT2L0a5ngjo.jpg/dims/resize/320/quality/90");
+
+}
+.five{
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240826/RjclFxZKN1doQxrJGJg71059503_00_00RjclFxZKN1doQxrJGJg7.jpg/dims/resize/320/quality/90");
+
+}
+
+.pricetag{
+  font-weight: 400;
+  font-size: 25px;
+  padding: 10px 0px 0px 0px;
+  width: fit-content;
+  height: fit-content;
+}
+.new{
+  border: 1px solid red;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+}
+.product{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width : 250px;
+  height: 60px;
+
+}
+.explane{
+  font-size: 12px;
+  color : gray;
+  padding-bottom: 10px;
+  
+}

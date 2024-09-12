@@ -1,0 +1,9 @@
+.album {
+  width: 100px;
+  height: 100px;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+}
